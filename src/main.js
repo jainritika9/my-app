@@ -1,9 +1,5 @@
-import {Container, Grid, Menu, Segment,Image, Select,Divider,Input, Icon,Button} from 'semantic-ui-react';
+import {Container, Grid, Menu, Segment,Image,Divider,Input, Icon} from 'semantic-ui-react';
 import React from 'react';
-const replies= [
-    { key: 'af', value: 'af', text: 'Replies' },
-    { key: 'ax', value: 'ax', text: 'Aland Islands' },
-    { key: 'al', value: 'al', text: 'Albania' },]
 class Main extends React.Component{
     render(){
         return(
